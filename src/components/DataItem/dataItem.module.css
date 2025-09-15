@@ -1,0 +1,39 @@
+.img {
+  width: 22px;
+}
+
+.headingCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.itemDes {
+  color: var(--secondary-color);
+  font-size: 13px;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.itemDes p span {
+  color: var(--highlight-color);
+}
+
+.itemDes p {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 600px) {
+  .headingCont {
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+}

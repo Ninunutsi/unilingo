@@ -1,0 +1,10 @@
+.container {
+  border: 1px solid var(--border);
+  background-color: var(--highlight-dark);
+  position: absolute;
+  display: inline-flex;
+  height: auto;
+  gap: 5px;
+  padding: 16px 20px;
+  border-radius: 20px;
+}

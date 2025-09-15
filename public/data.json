@@ -1,0 +1,65 @@
+{
+  "languages": ["English", "Spanish", "French"],
+  "flags": ["🇬🇧", "🇪🇸", "🇫🇷"],
+  "minutesPublished": 32850,
+  "shortsExtractable": 612,
+  "themes": ["Travel ✈️", "Lifestyle 🪴", "Sport 🥋"],
+  "watchTimeMonthly": [
+    { "month": "Jan", "expanded": 12000, "original": 9000 },
+    { "month": "Feb", "expanded": 14500, "original": 10000 },
+    { "month": "Mar", "expanded": 17000, "original": 12000 },
+    { "month": "Apr", "expanded": 21000, "original": 14000 },
+    { "month": "May", "expanded": 25000, "original": 16500 },
+    { "month": "Jun", "expanded": 29500, "original": 19000 },
+    { "month": "Jul", "expanded": 32000, "original": 21000 },
+    { "month": "Aug", "expanded": 34000, "original": 23000 },
+    { "month": "Sep", "expanded": 36000, "original": 25000 },
+    { "month": "Oct", "expanded": 38000, "original": 27000 },
+    { "month": "Nov", "expanded": 40000, "original": 29000 },
+    { "month": "Dec", "expanded": 42000, "original": 31000 }
+  ],
+  "platforms": {
+    "name": "Platforms",
+    "amount": 12,
+    "data": [
+      {
+        "name": "YouTube",
+        "videos": 145,
+        "watchTime": 34000,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png"
+      },
+      {
+        "name": "Instagram",
+        "videos": 145,
+        "watchTime": 34000,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
+      },
+
+      {
+        "name": "Facebook",
+        "videos": 100,
+        "watchTime": 20000,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"
+      },
+
+      {
+        "name": "LinkedIn",
+        "videos": 50,
+        "watchTime": 10000,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+      },
+      {
+        "name": "Pinterest",
+        "videos": 40,
+        "watchTime": 8000,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png"
+      },
+      {
+        "name": "Reddit",
+        "videos": 20,
+        "watchTime": 4000,
+        "logo": "https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png"
+      }
+    ]
+  }
+}

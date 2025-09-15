@@ -1,0 +1,49 @@
+:root {
+  --sk-duration: 1.6s;
+  --sk-base: rgba(224, 224, 224, 0.366);
+  --sk-highlight: rgba(0, 0, 0, 0.06);
+}
+
+.skeleton {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    var(--sk-base) 8%,
+    var(--sk-highlight) 18%,
+    var(--sk-base) 33%
+  );
+  background-size: 200% 100%;
+  animation: shimmer var(--sk-duration) linear infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -100% 0;
+  }
+
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.text {
+  height: 1rem;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.rect {
+  border-radius: 8px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.multiLine {
+  display: block;
+  width: 100%;
+  height: auto;
+}

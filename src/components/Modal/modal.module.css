@@ -1,0 +1,50 @@
+.modalContainer {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 9;
+}
+
+.modal {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 300px;
+  position: relative;
+  height: auto;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  z-index: 9999;
+  background: url("../../assets/Artboard.svg"), var(--gradient-bg);
+  background-position: center center, center center;
+  background-size: 480px, cover;
+  background-repeat: no-repeat, no-repeat;
+}
+
+@media (max-width: 600px) {
+  .modal {
+    max-width: 95%;
+    padding: 1rem;
+    max-height: 90vh;
+    background-size: 300px, cover;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  .modal {
+    max-width: 85%;
+    padding: 1.2rem;
+    height: 85vh;
+    max-height: 700px;
+
+    background-size: 380px, cover;
+  }
+}
