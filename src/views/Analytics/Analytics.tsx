@@ -4,6 +4,7 @@ import { Loader, Section, SkeletonLoader } from "../../components";
 import { DataList } from "../../UI";
 import styles from "./analytics.module.css";
 import { ErrorBoundary } from "../../utils";
+import { Elipsis } from "../../assets";
 const WatchTimeChart = lazy(
   () => import("../../UI/WatchTimeChart/WatchTimeChart")
 );
@@ -21,19 +22,22 @@ const Analytics = () => {
         Get a complete view of how your channels are growing with us right here.
       </p>
       <h3>Insights</h3>
-      {/* this ection shows list of platforms */}
+      {/* this section shows list of platforms */}
       <Section style={{ marginBottom: "16px" }}>
         <DataList data={data} />
       </Section>
       {/* chart section */}
       <Section>
         <>
-          <div>
-            <h3 className="sectionHeading">Watch Time</h3>
-            <p className={styles.p}>
-              Tracks the overtime watch time gained over all locals and
-              platforms
-            </p>
+          <div className="headingCont">
+            <div>
+              <h3 className="sectionHeading">Watch Time</h3>
+              <p className={styles.p}>
+                Tracks the overtime watch time gained over all locals and
+                platforms
+              </p>
+            </div>
+            <Elipsis style={{ width: "20px", cursor: "pointer" }} />
           </div>
           <ErrorBoundary>
             <Suspense
