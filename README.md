@@ -53,7 +53,7 @@ The UI is fully responsive, providing a seamless experience across devices of al
 
 **utils** contains helper functions or componenets
 
-**views** contains routes
+**views** contains routes (overview, analytics, not-found)
 
 **types** contains interfaces
 
